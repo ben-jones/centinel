@@ -6,7 +6,7 @@ Centinel is a tool used to detect network interference and internet censorship."
 
 setup(
     name = "centinel-dev",
-    version = "0.1.4.6",
+    version = "0.1.4.7",
     author = "Sathyanarayanan Gunasekaran",
     author_email = "gsathya@gatech.edu",
     description = DESCRIPTION,
@@ -14,8 +14,7 @@ setup(
     keywords = "censorship network interference",
     url = "https://www.github.com/projectbismark/centinel",
     packages = ["centinel", "centinel.experiments",
-                "centinel.primitives", "centinel.utils",
-                "centinel.vpn"],
+                "centinel.primitives", "centinel.vpn"],
     install_requires = ["dnspython >= 1.11.0", "requests >= 2.0.0"],
     include_package_data = True,
     entry_points = {
