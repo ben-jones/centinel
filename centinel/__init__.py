@@ -1,5 +1,5 @@
 #!/usr/bin/python
-__title__ = 'centinel'
+__title__ = 'centinel-dev'
 __version__ = '0.1.5.3'
 
 import centinel.backend
